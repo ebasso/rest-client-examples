@@ -11,7 +11,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from requests.auth import HTTPBasicAuth
 import xml.etree.ElementTree as ET
 
-CONNECTIONS_HOST = '<REPLACE_HERE>'
+CONNECTIONS_HOST = 'https://connections.<REPLACE_HERE>.com'
 CONNECTIONS_USERNAME = '<REPLACE_HERE>'
 CONNECTIONS_PASSWORD = '<REPLACE_HERE>
 DEBUG=0
