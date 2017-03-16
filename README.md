@@ -6,5 +6,5 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 
 |  Script Name                  |   Description                                                  | Language |
 |-------------------------------|----------------------------------------------------------------|----------|
-|ListConnectionsCommunities.py  |List IBM Connections Communities and Owners                     |Python    |
+|ListConnectionsCommunities.py  |List Communities and Owners on IBM Connections Communities      |Python    |
 |GetUserInformationOnProfiles.py|Get User Information on IBM Connections Profiles                |Python    |
