@@ -11,10 +11,10 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from requests.auth import HTTPBasicAuth
 import xml.etree.ElementTree as ET
 
-CONNECTIONS_HOST = 'https://connections.matrix.com'
+CONNECTIONS_HOST = 'https://connections.<REPLACE_HERE>.com'
 CONNECTIONS_USERNAME = '<REPLACE_HERE>'
 CONNECTIONS_PASSWORD = '<REPLACE_HERE>'
-QUERY = 'email=smith@matrix.com'
+QUERY = 'email=smith@<REPLACE_HERE>.com'
 # Other options for QUERY
 # 1) email=<email_address>
 # 2) uuid=48DD2000-35B2-1E06-A24F-40281701A3F6
