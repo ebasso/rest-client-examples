@@ -8,6 +8,8 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |--------------------------------------------|----------------------------------------------------------------|----------|
 |/connections/ListConnectionsCommunities.py  |List Communities and Owners on IBM Connections Communities      |Python    |
 |/connections/GetUserInformationOnProfiles.py|Get User Information on IBM Connections Profiles                |Python    |
+|--------------------------------------------|----------------------------------------------------------------|----------|
+|/connections/GetUserInformationOnProfiles.js|Get User Information on IBM Connections Profiles                |Javascript/NodeJs    |
 
 ## IBM Sametime
 
