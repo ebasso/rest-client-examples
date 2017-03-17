@@ -17,8 +17,8 @@ CONNECTIONS_PASSWORD = '<REPLACE_HERE>'
 QUERY = 'email=smith@<REPLACE_HERE>.com'
 # Other options for QUERY
 # 1) email=<email_address>
-# 2) uuid=48DD2000-35B2-1E06-A24F-40281701A3F6
-# 3) uid=F2816859
+# 2) uuid=<uuid of user>
+# 3) uid=<uid of user>
 
 DEBUG=0
 
