@@ -28,7 +28,7 @@ const QUERY = 'email=smith@<REPLACE_HERE>.com';
 function getProfileInfo() {
     var options = {
         url: CONNECTIONS_HOST + '/profiles/atom/profile.do?' + QUERY,
-        form: {
+        auth: {
             username: CONNECTIONS_USERNAME,
             password: CONNECTIONS_PASSWORD
         },
