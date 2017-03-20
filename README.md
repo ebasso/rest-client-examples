@@ -12,7 +12,8 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |  Script Name                               |   Description                                                  | Language |
 |--------------------------------------------|----------------------------------------------------------------|----------|
 |/connections/GetUserInformationOnProfiles.js|Get User Information on IBM Connections Profiles                |Javascript/NodeJs    |
-|/connections/ListConnectionsCommunities.py  |List Only Communities IBM Connections Communities      |Javascript/NodeJs    |
+|/connections/ListConnectionsCommunities.py  |List Only Communities IBM Connections Communities               |Javascript/NodeJs    |
+|/connections/ListCommunityOwners.py         |List Comunity Owners on IBM Connections Communities             |Javascript/NodeJs    |
 
 ## IBM Sametime
 
