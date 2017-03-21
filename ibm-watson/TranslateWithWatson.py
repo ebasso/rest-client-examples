@@ -37,7 +37,7 @@ def doGetTranslateWithWatson(textToTranslate, source, target):
         'text':  textToTranslate
     }
     url = BLUEMIX_URL + '?'+ urllib.urlencode(params);
-    headers = { 'Content-Type': 'application/json'}
+    headers = { 'Accept': 'application/json'}
     auth=HTTPBasicAuth(BLUEMIX_API_USERNAME, BLUEMIX_API_PASSWORD)
 
     res = requests.get(url=url,headers=headers,auth=auth)
@@ -45,6 +45,12 @@ def doGetTranslateWithWatson(textToTranslate, source, target):
     if (res.status_code != 200):
         print 'requests.get -> %s = %s\n' % (res.url, res)
         return None;
+
+    if (res.headers['Content-Type'] == 'application/json;charset=utf-8'):
+        output = res.json()
+        translations = output['translations']
+        translation = translations[0]['translation']
+        return translation
 
     return res.content
 
@@ -65,11 +71,24 @@ def doPostTranslateWithWatson(textToTranslate=None, source=None, target=None):
         print res.content
         return None;
 
+    if (res.headers['Content-Type'] != 'text/plain;charset=utf-8'):
+        print res.headers['Content-Type']
+
     return res.content
 
 
 #################### Main Module ###################
 print 'Connecting to Bluemix...\n'
+
+textToTranslate = """
+Bom dia a todos!
+"""
+# Portugues->English
+print '----- Translate from Portuguese to English (GET):\n'
+print 'Source: ', textToTranslate
+print 'Target: '
+print doGetTranslateWithWatson(textToTranslate, 'pt', 'en')
+print '--------------------------------------------------------\n'
 
 
 textToTranslate = """
@@ -82,15 +101,6 @@ print 'Target: '
 print doPostTranslateWithWatson(textToTranslate, 'pt', 'en')
 print '--------------------------------------------------------\n'
 
-textToTranslate = """
-Bom dia a todos!
-"""
-# Portugues->English
-print '----- Translate from Portuguese to English (GET):\n'
-print 'Source: ', textToTranslate
-print 'Target: '
-print doGetTranslateWithWatson(textToTranslate, 'pt', 'en')
-print '--------------------------------------------------------\n'
 
 
 textToTranslate = """
