@@ -27,3 +27,12 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |-------------|-----------------------------------------|----------------------------------------------------------------|----------|
 | Meetings    |/sametime/ListSametimeMeetingRooms.py    |List Meeting Rooms of User on IBM Sametime Meetings             |Python    |
 
+TranslateWithWatson.py
+
+
+
+## IBM Watson
+
+| API               |            Script Name           |   Description                                                  | Language |
+|-------------------|----------------------------------|----------------------------------------------------------------|----------|
+|language-translator|/ibm-watson/TranslateWithWatson.py|Translate a text with IBM Watson API - Language Translator      |Python    |
