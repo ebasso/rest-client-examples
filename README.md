@@ -2,7 +2,7 @@
 
 Rest Clients Examples to access IBM Connections, Sametime, Watson
 
-## IBM Connections
+## IBM Connections - Python
 
 | Application |  Script Name                               |   Description                                                  | Language |
 |-------------|--------------------------------------------|----------------------------------------------------------------|----------|
@@ -10,7 +10,7 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 | Communities |/connections/ListConnectionsCommunities.py  |List Communities and Owners       |Python    |
 
 
-
+## IBM Connections - Javascript
 | Application |  Script Name                               |   Description                                                  | Language |
 |-------------|--------------------------------------------|----------------------------------------------------------------|----------|
 | Profiles    |/connections/GetUserInformationOnProfiles.js|Get User Information on Profiles                |Javascript/NodeJs    |
@@ -18,8 +18,11 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 | Communities |/connections/ListCommunityOwners.py         |List Comunity Owners              |Javascript/NodeJs    |
 | Wikis       |/connections/CreateWikiPage.py              |Create a Wiki Page on IBM Connections              |Javascript/NodeJs    |
 
+## IBM Watson
 
-
+| API               |            Script Name           |   Description                                                  | Language |
+|-------------------|----------------------------------|----------------------------------------------------------------|----------|
+|language-translator|/ibm-watson/TranslateWithWatson.py|Translate a text with IBM Watson API - Language Translator      |Python    |
 
 ## IBM Sametime
 
@@ -27,12 +30,4 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |-------------|-----------------------------------------|----------------------------------------------------------------|----------|
 | Meetings    |/sametime/ListSametimeMeetingRooms.py    |List Meeting Rooms of User on IBM Sametime Meetings             |Python    |
 
-TranslateWithWatson.py
 
-
-
-## IBM Watson
-
-| API               |            Script Name           |   Description                                                  | Language |
-|-------------------|----------------------------------|----------------------------------------------------------------|----------|
-|language-translator|/ibm-watson/TranslateWithWatson.py|Translate a text with IBM Watson API - Language Translator      |Python    |
