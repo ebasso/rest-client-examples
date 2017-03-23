@@ -1,6 +1,7 @@
 # rest_client_examples
 
-Rest Clients Examples to access IBM Connections, Sametime, Watson
+Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson Work
+
 
 ## IBM Connections - Python
 
@@ -29,6 +30,11 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |tone-analyzer      |/ibm-watson/TonyAnalyzerWithWatson.py|Tone Analyze a text with IBM Watson API - Tone Analyzer         |Python    |
 |translator and tone|/ibm-watson/TranslateAndToneWithWatson.py|Translate and Tone, to support other lang than English      |Python    |
 
+## IBM Watson
+
+| API               |            Script Name              |   Description                                                  | Language |
+|-------------------|-------------------------------------|----------------------------------------------------------------|----------|
+|watson-work|/ibm-watson-work/PostMessageOnWatsonWorkspace.py   |Post a message on Watson Workspace      |Python    |
 
 
 ## IBM Sametime
