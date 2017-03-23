@@ -6,20 +6,20 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 
 | Application |  Script Name                               |   Description                                                  | Language |
 |-------------|--------------------------------------------|----------------------------------------------------------------|----------|
-| Blogs       |/connections/ListBlogPosts.py               |List Blog Posts and Get Post Details       |Python    |
-| Communities |/connections/ListConnectionsCommunities.py  |List Communities and Owners       |Python    |
-| Profiles    |/connections/GetUserInformationOnProfiles.py|Get User Information on Profiles                |Python    |
-
+| Blogs       |/connections/ListBlogPosts.py               |List Blog Posts and Get Post Details  |Python    |
+| Communities |/connections/ListConnectionsCommunities.py  |List Communities and Owners           |Python    |
+| Profiles    |/connections/GetUserInformationOnProfiles.py|Get User Information on Profiles      |Python    |
+| Wikis       |/connections/CreateWikiPage.py              |Create a Wiki Page on IBM Connections |Python    |
 
 
 
 ## IBM Connections - Javascript
 | Application |  Script Name                               |   Description                                                  | Language |
 |-------------|--------------------------------------------|----------------------------------------------------------------|----------|
-| Communities |/connections/ListConnectionsCommunities.js  |List Only Communities                |Javascript/NodeJs    |
-| Communities |/connections/ListCommunityOwners.js         |List Comunity Owners              |Javascript/NodeJs    |
-| Profiles    |/connections/GetUserInformationOnProfiles.js|Get User Information on Profiles                |Javascript/NodeJs    |
-| Wikis       |/connections/CreateWikiPage.js              |Create a Wiki Page on IBM Connections              |Javascript/NodeJs    |
+| Communities |/connections/ListConnectionsCommunities.js  |List Only Communities                |Javascript    |
+| Communities |/connections/ListCommunityOwners.js         |List Comunity Owners              |Javascript    |
+| Profiles    |/connections/GetUserInformationOnProfiles.js|Get User Information on Profiles                |Javascript    |
+| Wikis       |/connections/CreateWikiPage.js              |Create a Wiki Page on IBM Connections              |Javascript    |
 
 ## IBM Watson
 
