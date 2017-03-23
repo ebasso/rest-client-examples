@@ -27,9 +27,10 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson
 |-------------------|-------------------------------------|----------------------------------------------------------------|----------|
 |language-translator|/ibm-watson/TranslateWithWatson.py   |Translate a text with IBM Watson API - Language Translator      |Python    |
 |tone-analyzer      |/ibm-watson/TonyAnalyzerWithWatson.py|Tone Analyze a text with IBM Watson API - Tone Analyzer         |Python    |
+|translator and tone|/ibm-watson/TranslateAndToneWithWatson.py|Translate and Tone, to support other lang than English      |Python    |
 
 
-TonyAnalyzerWithWatson.py
+
 ## IBM Sametime
 
 | Application |            Script Name                  |   Description                                                  | Language |
