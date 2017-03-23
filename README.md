@@ -2,6 +2,11 @@
 
 Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson Work
 
+## IBM Watson Workspace
+
+| API               |            Script Name              |   Description                                                  | Language |
+|-------------------|-------------------------------------|----------------------------------------------------------------|----------|
+|watson-work|/ibm-watson-work/PostMessageOnWatsonWorkspace.py   |Post a message on Watson Workspace      |Python    |
 
 ## IBM Connections - Python
 
@@ -11,8 +16,6 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson W
 | Communities |/connections/ListConnectionsCommunities.py  |List Communities and Owners           |Python    |
 | Profiles    |/connections/GetUserInformationOnProfiles.py|Get User Information on Profiles      |Python    |
 | Wikis       |/connections/CreateWikiPage.py              |Create a Wiki Page on IBM Connections |Python    |
-
-
 
 ## IBM Connections - Javascript
 | Application |  Script Name                               |   Description                                                  | Language |
@@ -29,13 +32,6 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson W
 |language-translator|/ibm-watson/TranslateWithWatson.py   |Translate a text with IBM Watson API - Language Translator      |Python    |
 |tone-analyzer      |/ibm-watson/TonyAnalyzerWithWatson.py|Tone Analyze a text with IBM Watson API - Tone Analyzer         |Python    |
 |translator and tone|/ibm-watson/TranslateAndToneWithWatson.py|Translate and Tone, to support other lang than English      |Python    |
-
-## IBM Watson
-
-| API               |            Script Name              |   Description                                                  | Language |
-|-------------------|-------------------------------------|----------------------------------------------------------------|----------|
-|watson-work|/ibm-watson-work/PostMessageOnWatsonWorkspace.py   |Post a message on Watson Workspace      |Python    |
-
 
 ## IBM Sametime
 
