@@ -40,4 +40,6 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson W
 |-------------|-----------------------------------------|----------------------------------------------------------------|----------|
 | Meetings    |/sametime/ListSametimeMeetingRooms.py    |List Meeting Rooms of User on IBM Sametime Meetings             |Python    |
 | Meetings    |/sametime/CreateSametimeMeetingRoom.py   |Create a Meeting Room on IBM Sametime Meetings                  |Python    |
+| Meetings|/sametime/SametimeMeetingRoom.py|Create, Read, Update, Delete and List Rooms on IBM Sametime Meetings|Python|
+
 
