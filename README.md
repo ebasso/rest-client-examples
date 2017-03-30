@@ -14,6 +14,7 @@ Rest Clients Examples to access IBM Connections, Sametime, Watson APIs, Watson W
 |-------------|--------------------------------------------|----------------------------------------------------------------|----------|
 | Blogs       |/connections/ListBlogPosts.py               |List Blog Posts and Get Post Details  |Python    |
 | Communities |/connections/ListConnectionsCommunities.py  |List Communities and Owners           |Python    |
+| Communities |/connections/ConnectionsCommunities.py     |List Communities and Owners but implemented as Class and multi-page|Python|
 | Profiles    |/connections/GetUserInformationOnProfiles.py|Get User Information on Profiles      |Python    |
 | Wikis       |/connections/CreateWikiPage.py              |Create a Wiki Page on IBM Connections |Python    |
 
