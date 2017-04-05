@@ -1,3 +1,3 @@
-Exemplo
+Veja documentação no meu site
 
-https://github.com/ebasso/rest-client-examples/blob/master/ibm-watson-work/PostMessage.jpg
+http://ebasso.net/wiki/index.php/IBM_Watson
